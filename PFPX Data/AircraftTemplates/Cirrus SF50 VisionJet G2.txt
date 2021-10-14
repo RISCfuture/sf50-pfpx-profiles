@@ -1,0 +1,62 @@
+<PFPX_AIRCRAFT>
+  <Registration>Cirrus SF50 G2</Registration>
+  <PerformanceFile>Cirrus SF50 VisionJet G2.txt</PerformanceFile>
+  <WeightUnits>LB</WeightUnits>
+  <DistUnits>FT</DistUnits>
+  <AltitudeUnits>FT</AltitudeUnits>
+  <ThresholdTime>60</ThresholdTime>
+  <ThresholdDist>232</ThresholdDist>
+  <TakeOffAltnDist>300</TakeOffAltnDist>
+  <DOW>1635.84</DOW>
+  <MZFW>2222.6</MZFW>
+  <MRW>2739.7</MRW>
+  <MTOW>2721.55</MTOW>
+  <MLW>2517.44</MLW>
+  <PaxCap>7</PaxCap>
+  <CargoCap>136.08</CargoCap>
+  <LastStep>150</LastStep>
+  <BiasCruise>1</BiasCruise>
+  <BiasHold>1</BiasHold>
+  <BiasDrag>1</BiasDrag>
+  <StdClimbMode>0</StdClimbMode>
+  <StdCruiseMode>0</StdCruiseMode>
+  <StdDescentMode>1</StdDescentMode>
+  <AltnClimbMode>0</AltnClimbMode>
+  <AltnCruiseMode>1</AltnCruiseMode>
+  <AltnDescentMode>2</AltnDescentMode>
+  <AutoAltnMinLdgRunwayLengthFeet>3000</AutoAltnMinLdgRunwayLengthFeet>
+  <TailWindLimit>10</TailWindLimit>
+  <AutoAltnCeilingFeet>500</AutoAltnCeilingFeet>
+  <AutoAltnVisibility>1000</AutoAltnVisibility>
+  <FuelCapacity>900.91</FuelCapacity>
+  <TaxiFuelPerMinute>0.59</TaxiFuelPerMinute>
+  <TakeOffBurn>12.25</TakeOffBurn>
+  <LandingBurn>15.42</LandingBurn>
+  <GoAroundBurn>12.25</GoAroundBurn>
+  <TakeOffTime>0.02166666667</TakeOffTime>
+  <LandingTime>0.05666666667</LandingTime>
+  <MinDestFuel>213.05</MinDestFuel>
+  <APUBurnPerHour>0</APUBurnPerHour>
+  <EngineAI>0</EngineAI>
+  <TotalAI>0</TotalAI>
+  <WakeCat>L</WakeCat>
+  <SSR>LB2U2</SSR>
+  <Equipment>SBDGRWY</Equipment>
+  <FAACode>L</FAACode>
+  <RVR>550</RVR>
+  <NAV></NAV>
+  <PBN>B2C2D2O2S2</PBN>
+  <PER>B</PER>
+  <SUR>260B 282B</SUR>
+  <CONFIGURATIONS>
+    <CONFIG>
+      <Code>Standard</Code>
+      <Remarks>Standard configuration</Remarks>
+      <IsStandard>1</IsStandard>
+    </CONFIG>
+  </CONFIGURATIONS>
+  <COST>
+    <FixedFlightHour>485</FixedFlightHour>
+  </COST>
+  <EROPS/>
+</PFPX_AIRCRAFT>

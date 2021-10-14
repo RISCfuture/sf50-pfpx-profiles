@@ -83,7 +83,7 @@ be added to the DOW.
 VisionJet pilots are taught to land with no fewer than 70 gallons (470 lb, 213
 kg) onboard. Because of this, a typical planning scenario, where no alternates
 are required\*, would be to reduce the number of required alternates in PFPX to
-None, and then set the **Remaining Fuel** field to **470 lb**.
+None, and then set the **Remaining Fuel** field to **470 lb** (213 kg).
 
 \*Per 14 CFR 91.169(c), an alternate is not required if the weather at
 the destination (at ±1 hour around ETA) is forecast to be better than 3 miles
@@ -182,7 +182,8 @@ left at zero because they are negligible, as explained below.
 Nearly every VisionJet owner pays for JetStream Concierge, Cirrus's
 all-inclusive ownership plan. The plan covers virtually all ownership expenses,
 other than fuel and oil. This includes foreseen and unforeseen maintenance
-events, normal upkeep such as oil and tire changes, and even annual recurrent
+events, normal upkeep such as oil and tire changes, subscriptions to services
+like satellite phone and navigation data/charts, and even annual recurrent
 training for the pilot. The cost of the Concierge level is $270,000 every three
 years.
 
@@ -199,7 +200,8 @@ Variable costs include only fuel and oil. The price of oil is negligible (less
 than $1 per hour) and PFPX does its fuel cost calculation separately, so
 variable cost is left at zero. If you are simulating Part 135 ops, you will also
 need to include the cost of crew (salaries, etc.), and fill a value in for the
-delay costs (opportunity cost of not being able to carry more passengers).
+delay costs (money you're leaving on the table by not picking up more
+passengers).
 
 If you want to price out your flights, simply make sure to fill in a value into
 the **Fuel Price** field when dispatching, and then in the Summary tab under
@@ -208,9 +210,12 @@ plus the cost of fuel.
 
 Note that most jet pilots do not pay "sticker price" for fuel. So even if you go
 on AirNav and see that Jet A- is, say, $3.89 per gallon at some airport FBO,
-chances are the VisionJet pilot has a fuel card, such as through CAA, and would
-likely pay a lower negotiated rate. These rates are usually 50¢ to $1 cheaper
-than the published rate.
+if the VisionJet pilot has a fuel card, such as through CAA, they would likely
+pay a lower negotiated rate. These rates are usually 50¢ to $1 cheaper than the
+published rate.
+
+Obviously, part 135 operators would have their own fuel contracts and pay
+significantly less than sticker price for fuel too.
 
 ## Typical Flight Planning Steps
 
@@ -224,6 +229,25 @@ than the published rate.
 4. Determine if an alternate is necessary using the 1-2-3 rule. If one is not
    necessary, set the **Altns required** field to **None**. Otherwise, choose
    alternates normally.
-5. If you want to plan delays/holding, redispatching, etc., do that under the
+5. If you want to plan delays/holding, re-dispatching, etc., do that under the
    Advanced tab.
 6. Compute your flight!
+
+### Why Does it Keep Saying the Flight is Overweight??
+
+Because it's a VisionJet! With full fuel, the SF50 is essentially a two-person
+aircraft, especially two typically-hefty Americans. If you are carrying a
+family-sized load, you must take less fuel, probably around 220 to 250 gallons
+max.
+
+Full fuel minus reserves in the VisionJet is nearly three hours of flying at
+MCT, which will take you about 900 NM (1700 km) ignoring winds. This is a good
+leg length for a VisionJet, which doesn't have a lavatory. It gives an
+opportunity for passengers to get out and stretch their legs for a bit before
+continuing on. Plus, FBOs are generally well-appointed and know how to take care
+of passengers during quick turns.
+
+With a family-sized load on board, you may be looking at something 1.5-hour
+legs. Your typical sim pilot, especially one accustomed to flying 12-hour legs
+in the 777, may balk -- but trust me! It's really not that bad. You get used to
+it…
